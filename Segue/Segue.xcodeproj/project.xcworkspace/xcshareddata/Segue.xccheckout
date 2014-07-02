@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A2EF9D50-4DCC-493F-A486-7395CA17267E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Segue</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4B5352C6-EB06-4ED0-A483-5FA930561DEF</key>
+		<string>https://github.com/anilsudhakaran/iOS7Experiments.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Segue/Segue.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4B5352C6-EB06-4ED0-A483-5FA930561DEF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/anilsudhakaran/iOS7Experiments.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4B5352C6-EB06-4ED0-A483-5FA930561DEF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4B5352C6-EB06-4ED0-A483-5FA930561DEF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS7Experiments</string>
+		</dict>
+	</array>
+</dict>
+</plist>

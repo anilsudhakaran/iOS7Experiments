@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26CDB31A196486580050983F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CDB319196486580050983F /* Foundation.framework */; };
+		26CDB31C196486580050983F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CDB31B196486580050983F /* CoreGraphics.framework */; };
+		26CDB31E196486580050983F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CDB31D196486580050983F /* UIKit.framework */; };
+		26CDB324196486580050983F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26CDB322196486580050983F /* InfoPlist.strings */; };
+		26CDB326196486580050983F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB325196486580050983F /* main.m */; };
+		26CDB332196486580050983F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CDB331196486580050983F /* Images.xcassets */; };
+		26CDB339196486580050983F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CDB338196486580050983F /* XCTest.framework */; };
+		26CDB33A196486580050983F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CDB319196486580050983F /* Foundation.framework */; };
+		26CDB33B196486580050983F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CDB31D196486580050983F /* UIKit.framework */; };
+		26CDB343196486580050983F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26CDB341196486580050983F /* InfoPlist.strings */; };
+		26CDB345196486580050983F /* SegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB344196486580050983F /* SegueTests.m */; };
+		26CDB3581964870A0050983F /* HCMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB34F1964870A0050983F /* HCMAppDelegate.m */; };
+		26CDB3591964870A0050983F /* HCMContainerViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB3511964870A0050983F /* HCMContainerViewController1.m */; };
+		26CDB35A1964870A0050983F /* HCMContainerViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB3531964870A0050983F /* HCMContainerViewController2.m */; };
+		26CDB35B1964870A0050983F /* HCMPushedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB3551964870A0050983F /* HCMPushedInViewController.m */; };
+		26CDB35C1964870A0050983F /* HCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CDB3571964870A0050983F /* HCMViewController.m */; };
+		26CDB35F1964871B0050983F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CDB35D1964871B0050983F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26CDB33C196486580050983F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26CDB30E196486580050983F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26CDB315196486580050983F;
+			remoteInfo = Segue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26CDB316196486580050983F /* Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Segue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CDB319196486580050983F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26CDB31B196486580050983F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26CDB31D196486580050983F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26CDB321196486580050983F /* Segue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Segue-Info.plist"; sourceTree = "<group>"; };
+		26CDB323196486580050983F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26CDB325196486580050983F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26CDB327196486580050983F /* Segue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Segue-Prefix.pch"; sourceTree = "<group>"; };
+		26CDB331196486580050983F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26CDB337196486580050983F /* SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CDB338196486580050983F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		26CDB340196486580050983F /* SegueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegueTests-Info.plist"; sourceTree = "<group>"; };
+		26CDB342196486580050983F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26CDB344196486580050983F /* SegueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegueTests.m; sourceTree = "<group>"; };
+		26CDB34E1964870A0050983F /* HCMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMAppDelegate.h; sourceTree = "<group>"; };
+		26CDB34F1964870A0050983F /* HCMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMAppDelegate.m; sourceTree = "<group>"; };
+		26CDB3501964870A0050983F /* HCMContainerViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMContainerViewController1.h; sourceTree = "<group>"; };
+		26CDB3511964870A0050983F /* HCMContainerViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMContainerViewController1.m; sourceTree = "<group>"; };
+		26CDB3521964870A0050983F /* HCMContainerViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMContainerViewController2.h; sourceTree = "<group>"; };
+		26CDB3531964870A0050983F /* HCMContainerViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMContainerViewController2.m; sourceTree = "<group>"; };
+		26CDB3541964870A0050983F /* HCMPushedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMPushedInViewController.h; sourceTree = "<group>"; };
+		26CDB3551964870A0050983F /* HCMPushedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMPushedInViewController.m; sourceTree = "<group>"; };
+		26CDB3561964870A0050983F /* HCMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCMViewController.h; sourceTree = "<group>"; };
+		26CDB3571964870A0050983F /* HCMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCMViewController.m; sourceTree = "<group>"; };
+		26CDB35E1964871B0050983F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26CDB313196486580050983F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CDB31C196486580050983F /* CoreGraphics.framework in Frameworks */,
+				26CDB31E196486580050983F /* UIKit.framework in Frameworks */,
+				26CDB31A196486580050983F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CDB334196486580050983F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CDB339196486580050983F /* XCTest.framework in Frameworks */,
+				26CDB33B196486580050983F /* UIKit.framework in Frameworks */,
+				26CDB33A196486580050983F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CDB30D196486580050983F = {
+			isa = PBXGroup;
+			children = (
+				26CDB31F196486580050983F /* Segue */,
+				26CDB33E196486580050983F /* SegueTests */,
+				26CDB318196486580050983F /* Frameworks */,
+				26CDB317196486580050983F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26CDB317196486580050983F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26CDB316196486580050983F /* Segue.app */,
+				26CDB337196486580050983F /* SegueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CDB318196486580050983F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26CDB319196486580050983F /* Foundation.framework */,
+				26CDB31B196486580050983F /* CoreGraphics.framework */,
+				26CDB31D196486580050983F /* UIKit.framework */,
+				26CDB338196486580050983F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26CDB31F196486580050983F /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				26CDB35D1964871B0050983F /* Main.storyboard */,
+				26CDB34E1964870A0050983F /* HCMAppDelegate.h */,
+				26CDB34F1964870A0050983F /* HCMAppDelegate.m */,
+				26CDB3501964870A0050983F /* HCMContainerViewController1.h */,
+				26CDB3511964870A0050983F /* HCMContainerViewController1.m */,
+				26CDB3521964870A0050983F /* HCMContainerViewController2.h */,
+				26CDB3531964870A0050983F /* HCMContainerViewController2.m */,
+				26CDB3541964870A0050983F /* HCMPushedInViewController.h */,
+				26CDB3551964870A0050983F /* HCMPushedInViewController.m */,
+				26CDB3561964870A0050983F /* HCMViewController.h */,
+				26CDB3571964870A0050983F /* HCMViewController.m */,
+				26CDB331196486580050983F /* Images.xcassets */,
+				26CDB320196486580050983F /* Supporting Files */,
+			);
+			path = Segue;
+			sourceTree = "<group>";
+		};
+		26CDB320196486580050983F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26CDB321196486580050983F /* Segue-Info.plist */,
+				26CDB322196486580050983F /* InfoPlist.strings */,
+				26CDB325196486580050983F /* main.m */,
+				26CDB327196486580050983F /* Segue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26CDB33E196486580050983F /* SegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				26CDB344196486580050983F /* SegueTests.m */,
+				26CDB33F196486580050983F /* Supporting Files */,
+			);
+			path = SegueTests;
+			sourceTree = "<group>";
+		};
+		26CDB33F196486580050983F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26CDB340196486580050983F /* SegueTests-Info.plist */,
+				26CDB341196486580050983F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26CDB315196486580050983F /* Segue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CDB348196486580050983F /* Build configuration list for PBXNativeTarget "Segue" */;
+			buildPhases = (
+				26CDB312196486580050983F /* Sources */,
+				26CDB313196486580050983F /* Frameworks */,
+				26CDB314196486580050983F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Segue;
+			productName = Segue;
+			productReference = 26CDB316196486580050983F /* Segue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26CDB336196486580050983F /* SegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26CDB34B196486580050983F /* Build configuration list for PBXNativeTarget "SegueTests" */;
+			buildPhases = (
+				26CDB333196486580050983F /* Sources */,
+				26CDB334196486580050983F /* Frameworks */,
+				26CDB335196486580050983F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26CDB33D196486580050983F /* PBXTargetDependency */,
+			);
+			name = SegueTests;
+			productName = SegueTests;
+			productReference = 26CDB337196486580050983F /* SegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26CDB30E196486580050983F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Anil Sudhakaran";
+				TargetAttributes = {
+					26CDB336196486580050983F = {
+						TestTargetID = 26CDB315196486580050983F;
+					};
+				};
+			};
+			buildConfigurationList = 26CDB311196486580050983F /* Build configuration list for PBXProject "Segue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26CDB30D196486580050983F;
+			productRefGroup = 26CDB317196486580050983F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26CDB315196486580050983F /* Segue */,
+				26CDB336196486580050983F /* SegueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26CDB314196486580050983F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CDB35F1964871B0050983F /* Main.storyboard in Resources */,
+				26CDB332196486580050983F /* Images.xcassets in Resources */,
+				26CDB324196486580050983F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CDB335196486580050983F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CDB343196486580050983F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26CDB312196486580050983F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CDB35A1964870A0050983F /* HCMContainerViewController2.m in Sources */,
+				26CDB326196486580050983F /* main.m in Sources */,
+				26CDB3581964870A0050983F /* HCMAppDelegate.m in Sources */,
+				26CDB35C1964870A0050983F /* HCMViewController.m in Sources */,
+				26CDB35B1964870A0050983F /* HCMPushedInViewController.m in Sources */,
+				26CDB3591964870A0050983F /* HCMContainerViewController1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26CDB333196486580050983F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CDB345196486580050983F /* SegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26CDB33D196486580050983F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26CDB315196486580050983F /* Segue */;
+			targetProxy = 26CDB33C196486580050983F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26CDB322196486580050983F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CDB323196486580050983F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26CDB341196486580050983F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CDB342196486580050983F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26CDB35D1964871B0050983F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26CDB35E1964871B0050983F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26CDB346196486580050983F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		26CDB347196486580050983F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26CDB349196486580050983F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Segue/Segue-Prefix.pch";
+				INFOPLIST_FILE = "Segue/Segue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26CDB34A196486580050983F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Segue/Segue-Prefix.pch";
+				INFOPLIST_FILE = "Segue/Segue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26CDB34C196486580050983F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Segue.app/Segue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Segue/Segue-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SegueTests/SegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		26CDB34D196486580050983F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Segue.app/Segue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Segue/Segue-Prefix.pch";
+				INFOPLIST_FILE = "SegueTests/SegueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26CDB311196486580050983F /* Build configuration list for PBXProject "Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CDB346196486580050983F /* Debug */,
+				26CDB347196486580050983F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CDB348196486580050983F /* Build configuration list for PBXNativeTarget "Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CDB349196486580050983F /* Debug */,
+				26CDB34A196486580050983F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26CDB34B196486580050983F /* Build configuration list for PBXNativeTarget "SegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26CDB34C196486580050983F /* Debug */,
+				26CDB34D196486580050983F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26CDB30E196486580050983F /* Project object */;
+}
